@@ -9,3 +9,5 @@ Route::get('/', function () {
 Route::get('/pegawai', function(){
     return view('pegawai');
 });
+
+Route::get('/hitung', [app\Http\Controllers\segitigaController::class, 'perkalian']);
