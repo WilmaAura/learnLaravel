@@ -10,4 +10,4 @@ Route::get('/pegawai', function(){
     return view('pegawai');
 });
 
-Route::get('/hitung', [app\Http\Controllers\segitigaController::class, 'perkalian']);
+Route::get('/hitung', [App\Http\Controllers\segitigaController::class, 'perkalian']);
