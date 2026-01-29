@@ -16,17 +16,17 @@ class barangController extends Controller
         echo "create Barang";
     }
     public function show($id){
-        echo 'show Barang';
+        echo 'show Barang'. $id;
     }
     public function edit($id){
-        echo 'form edit Barang';
+        echo 'form edit Barang' . $id;
     }
     
     public function update($id){
-        echo 'update Barang';
+        echo 'update Barang' . $id;
     }
 
     public function destroy($id){
-        echo 'delete Barang';
+        echo 'delete Barang' . $id;
     }
 }

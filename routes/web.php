@@ -16,6 +16,7 @@ use App\Http\Controllers\barangController;
 Route::get('barang',[barangController::class, 'index']) ->name('barang.index');
 Route::get('barang/create',[barangController::class, 'create']) ->name('barangs.create');
 Route::get('barang',[barangController::class, 'store']) ->name('barang.store');
+Route::get('barang/{id}',[barangController::class, 'show']) ->name('barang.show');
 Route::get('barang/{id}/edit',[barangController::class, 'edit']) ->name('barang.edit');
 Route::get('barang/{id}',[barangController::class, 'update']) ->name('barang.update');
 Route::get('barang/{id}',[barangController::class, 'destroy']) ->name('barang.destroy');
