@@ -7,8 +7,23 @@ use Illuminate\Http\Request;
 class barangController extends Controller
 {
     public function index(){
-        echo 'list Barang';
+        $barangs=[
+            [
+                'id' => 1,
+                'sku' => '#AA12312',
+                'namaBarang' => 'Barang A',
+                'harga' => 15000
+            ],
+            [
+                'id' => 2,
+                'sku' => '#BB12312',
+                'namaBarang' => 'Barang B',
+                'harga' => 20000,
+            ]
+        ];
+        return view('barang.index', ['barangs' => $barangs]);
     }
+
     public function create(){
         echo 'form Barang';
     }
