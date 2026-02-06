@@ -8,9 +8,11 @@
 <body>
     <div class="wrapper">
         <div class="container">
+            @extends('layouts.app')
+            @section('content')
             <div class="main-content">
                 <h3 class="mt-4">List barang</h3>
-                <table class="table table-stripped table-brodered">
+                <table class="table table-striped table-bordered">
                     <thead>
                         <tr>
                             <th>ID</th>
