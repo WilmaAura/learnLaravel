@@ -21,3 +21,5 @@ Route::get('barang/{id}/edit',[barangController::class, 'edit']) ->name('barang.
 Route::put('barang/{id}',[barangController::class, 'update']) ->name('barang.update');
 Route::delete('barang/{id}',[barangController::class, 'destroy']) ->name('barang.destroy'); 
 ?>
+
+<!-- I just want to commit -->
