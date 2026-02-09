@@ -19,5 +19,5 @@ Route::post('barang',[barangController::class, 'store']) ->name('barang.store');
 Route::get('barang/{id}',[barangController::class, 'show']) ->name('barang.show');
 Route::get('barang/{id}/edit',[barangController::class, 'edit']) ->name('barang.edit');
 Route::put('barang/{id}',[barangController::class, 'update']) ->name('barang.update');
-Route::delete('barang/{id}',[barangController::class, 'destroy']) ->name('barang.destroy');
+Route::delete('barang/{id}',[barangController::class, 'destroy']) ->name('barang.destroy'); 
 ?>
