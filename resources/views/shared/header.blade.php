@@ -12,7 +12,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="nav-link text-white"><svg bi d-block mx-auto mb-1></svg></a>
+                        <a href="" class="nav-link text-white"><svg bi d-block mx-auto mb-1 width= "24" height="24" ><use /></svg></a>
                     </li>
                 </ul>
             </a>
