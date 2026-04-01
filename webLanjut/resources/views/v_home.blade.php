@@ -1,5 +1,5 @@
 ini home
 <br>
-<a href="/produk"> ke halaman produk</a><br>
-<a href="/keranjang"> Ke halaman keranjang</a>
+<a href="/v_produk"> ke halaman produk</a><br>
+<a href="/v_keranjang"> Ke halaman keranjang</a>
 
