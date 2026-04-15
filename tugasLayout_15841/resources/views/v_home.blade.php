@@ -6,8 +6,8 @@
     <nav>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item">Tables</li>
-            <li class="breadcrumb-item active">Data</li>
+            <li class="breadcrumb-item"><a href="v_produk">Produk</a></li>
+            <li class="breadcrumb-item active"><a href="v_keranjang">Keranjang</a></li>
         </ol>
     </nav>
 </div><section class="section">
@@ -16,9 +16,7 @@
 
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Datatables</h5>
-                    <p>Isi data mahasiswa atau data transaksi kamu di bawah ini.</p>
-
+                    <h5 class="card-title">Data Tables</h5>
                     <table class="table datatable">
                         <thead>
                             <tr>

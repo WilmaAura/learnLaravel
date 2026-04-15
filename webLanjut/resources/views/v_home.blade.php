@@ -7,7 +7,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item"><a href="v_produk">Produk</a></li>
-            <li class="breadcrumb-item active"><a href="v_keranjang">Keranjang</a></li>
+            <li class="breadcrumb-item active"><a href="v_keranjang">Keranjang</a>3s</li>
         </ol>
     </nav>
 </div><section class="section">
