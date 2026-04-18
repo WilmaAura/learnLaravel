@@ -34,7 +34,7 @@
 <body> 
     <main>
         {{-- Tempat konten utama akan muncul --}}
-        @yield('main') 
+        @yield('content') 
     </main>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
