@@ -44,7 +44,7 @@
                         {{session('failed')}}
                      </div>
                     @if (session('filed'))
-                      <div class="col-12 alert alert-danger" role=" alert">
+                      <div class="col-12 alert alert-danger" role="alert">
                         <hr>
                         <p class="mb-0">
                           {session{'failed'}}    
